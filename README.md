@@ -52,3 +52,9 @@ services:
     ports:
       - 3030:3030
 ```
+
+## Build a new container if you make changes
+
+```
+docker build -t aschzero/sidekiq-web .
+```
